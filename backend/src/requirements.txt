@@ -16,3 +16,4 @@ pymongo
 PyJWT
 pandas
 Ultralytics
+langchain
