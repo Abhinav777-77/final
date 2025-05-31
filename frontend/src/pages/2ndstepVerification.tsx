@@ -130,7 +130,7 @@
         console.log("Sending OTP to:", email);
         
         const response = await axios.post(
-          "https://Abhinav777-77--fl.hf.space/api/otp/resend-otp",
+          "https://abhinav777-77-fl.hf.space/api/otp/resend-otp",
           { email },
           {
             headers: { 
@@ -205,7 +205,7 @@
         console.log("Resending OTP to:", email);
         
         const response = await axios.post(
-          "https://Abhinav777-77--fl.hf.space/api/otp/resend-otp",
+          "https://abhinav777-77-fl.hf.space/api/otp/resend-otp",
           { email },
           {
             headers: { 
@@ -282,7 +282,7 @@
       try {
         const token = sessionStorage.getItem("authToken");
         const response = await axios.post(
-          "https://Abhinav777-77--fl.hf.space/api/otp/verify-otp",
+          "https://abhinav777-77-fl.hf.space/api/otp/verify-otp",
           { otp },
           {
             headers: { "x-auth-token": token },
