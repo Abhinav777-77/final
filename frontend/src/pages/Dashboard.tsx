@@ -105,7 +105,7 @@ function formatDate(dateObject: any): string {
       console.log("Auth token:", sessionStorage.getItem("authToken")?.substring(0, 10) + "...");
       
       // Try with a trailing slash
-      const response = await fetch(`https://Abhinav777-77--fl.hf.space/api/cases/?user_id=${userId}`, {
+      const response = await fetch(`https://abhinav777-77-fl.hf.space/api/cases/?user_id=${userId}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
