@@ -177,7 +177,7 @@ const getInitials = (fullName) => {
 
     async function fetchUserProfile() {
       try {
-        const res = await fetch(`http://localhost:5000/api/auth/dashboard/${userId}`, {
+        const res = await fetch(`https://abhinav777--scene-solver-api.hf.space/api/auth/dashboard/${userId}`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`,
@@ -215,7 +215,7 @@ const getInitials = (fullName) => {
     console.log("Sending invitation email to:", email);
 
     try {
-      const res = await fetch("http://localhost:5000/api/invitation/send-invitation", {
+      const res = await fetch("https://abhinav777--scene-solver-api.hf.space/api/invitation/send-invitation", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
