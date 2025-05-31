@@ -105,7 +105,7 @@ function formatDate(dateObject: any): string {
       console.log("Auth token:", sessionStorage.getItem("authToken")?.substring(0, 10) + "...");
       
       // Try with a trailing slash
-      const response = await fetch(`http://localhost:5000/api/cases/?user_id=${userId}`, {
+      const response = await fetch(`https://Abhinav777-77--fl.hf.space/api/cases/?user_id=${userId}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -168,7 +168,7 @@ function formatDate(dateObject: any): string {
     try {
       setIsLoading(true);
       
-      const response = await fetch("http://localhost:5000/api/cases/create", {
+      const response = await fetch("https://abhinav777--scene-solver-api.hf.space/api/cases/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
