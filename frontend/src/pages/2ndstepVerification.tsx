@@ -417,6 +417,7 @@
                   "Didn't receive the code? "
                 )}
                 <button
+                  type="button"
                   onClick={resendOtp}
                   className="font-medium text-primary hover:underline"
                   disabled={isLoading}
