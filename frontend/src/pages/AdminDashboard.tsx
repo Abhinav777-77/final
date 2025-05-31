@@ -40,7 +40,7 @@ export default function AdminDashboard() {
   useEffect(() => {
     const fetchAllCases = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/cases/all-cases", {
+        const response = await fetch("https://Abhinav777-77--fl.hf.space/api/cases/all-cases", {
           headers: {
             "x-auth-token": sessionStorage.getItem("authToken") || "",
           },
