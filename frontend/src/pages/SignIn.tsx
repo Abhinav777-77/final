@@ -48,7 +48,7 @@ const handleSubmit = async (e: React.FormEvent) => {
     }
 
     // Normal user login
-    const response = await fetch("https://abhinav777--scene-solver-api.hf.space/api/auth/login", {
+    const response = await fetch("https://abhinav777--fl.hf.space/api/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
