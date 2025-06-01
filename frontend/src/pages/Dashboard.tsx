@@ -168,7 +168,7 @@ function formatDate(dateObject: any): string {
     try {
       setIsLoading(true);
       
-      const response = await fetch("https://abhinav777--scene-solver-api.hf.space/api/cases/create", {
+      const response = await fetch("https://abhinav777-77-fl.hf.space/api/cases/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
