@@ -104,7 +104,7 @@ export function ChatInterface({ selectedImage, analyzedImages = [], caseId }: Ch
         formData.append('case_id', caseId);
       }
 
-      const response = await fetch("https://f-olive-nine.vercel.app/api/analysis/process_query", {
+      const response = await fetch("https://abhinav777-77-fl.hf.space/api/analysis/process_query", {
         method: 'POST',
         body: formData,
         credentials: 'include',
