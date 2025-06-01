@@ -72,7 +72,7 @@ const handleSubmit = async (e: React.FormEvent) => {
         if (user.id) {
           sessionStorage.setItem("userid", user.id);
         }
-        userId = sessionStorage.getItem("userid")
+       const  userId = sessionStorage.getItem("userid")
         // navigate("/verification");
         navigate(`/dashboard/${userId}`)
 
